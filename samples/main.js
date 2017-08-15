@@ -1,11 +1,3 @@
-# feeler.js
-
-MicroServices framework
-
-## Sample
-
-
-```javascript
 const Haikunator = require('haikunator')
 const Feeler = require('../index')
 const Service = Feeler.Service
@@ -105,4 +97,4 @@ service.createRegistration(resultOfRegistration => {
     }
   })
 })
-```
+
