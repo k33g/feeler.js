@@ -106,3 +106,13 @@ service.createRegistration(resultOfRegistration => {
   })
 })
 ```
+
+## Remarks
+
+- each service has a `/discover` route to fetch all services connected to the same discovery backend
+- each service has a `/healthcheck` route to check if the service is up
+
+## TODO
+
+- documentation
+- circuitbreaker
