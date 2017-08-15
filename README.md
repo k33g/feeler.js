@@ -8,6 +8,8 @@ MicroServices framework
 npm install git+https://git@github.com/k33g/feeler.js.git --save
 ```
 
+You need **Redis** as a discovery backend, but you can write your own (see `DiscoveryBackend.js`)
+
 ## Sample
 
 
@@ -122,3 +124,4 @@ service.createRegistration(resultOfRegistration => {
 
 - documentation
 - circuitbreaker
+- use pub/sub of Redis
