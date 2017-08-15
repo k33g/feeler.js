@@ -2,12 +2,16 @@
   "name": "sandbox",
   "version": "1.0.0",
   "description": "",
-  "main": "main.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha tests/**"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k33g/feeler.js.git"
+  }, 
+  "author": "k33G",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.4",

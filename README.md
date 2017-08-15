@@ -2,12 +2,18 @@
 
 MicroServices framework
 
+## Install
+
+```shell
+npm install git+https://git@github.com/k33g/feeler.js.git --save
+```
+
 ## Sample
 
 
 ```javascript
 const Haikunator = require('haikunator')
-const Feeler = require('../index')
+const Feeler = require('feeler')
 const Service = Feeler.Service
 const Client = Feeler.Client
 const DiscoveryBackend = Feeler.DiscoveryBackend
